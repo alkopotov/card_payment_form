@@ -25,7 +25,8 @@ function CardForm() {
     let nextYear = +year < 2000 ? +year + 2000 : +year;
     if (+month === 12) nextYear++;
     let nextMonth = +month === 12 ? 1 : +month + 1;
-    let lastDayOfMonth = Date.parse(`${nextYear}-${nextMonth}`) - 3_600_000
+    nextMonth = nextMonth < 10 ? `0${nextMonth}` : `${nextMonth}`;
+    let lastDayOfMonth = Date.parse(`${nextYear}-${nextMonth}`) - 3_600_000;
     return Date.now() < lastDayOfMonth
   } 
 

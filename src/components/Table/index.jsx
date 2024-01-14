@@ -24,8 +24,6 @@ function Table() {
 
   const tableData = useSelector((state) => state.table.value)
   const dispatch = useDispatch()
-
-  console.log(tableData);
   return (
     <section >
       {tableData.length > 0 && 
@@ -51,7 +49,6 @@ function Table() {
               </tr>  
               )}
           </tbody>
-          
        </table>
        </div>}
     </section>
