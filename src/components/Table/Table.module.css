@@ -1,0 +1,55 @@
+.table_wrapper {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #95B0D8;
+  border-radius: 26px;
+}
+
+.table_content {
+  background-color: white;
+}
+
+.table_content thead {
+  background-color:  #E5E5E5;
+  font-size: 14px;
+}
+.delete_field {
+  min-width: 50px;
+}
+
+.table_header {
+  text-align: center;
+  min-width: 170px;
+  padding: 10px;
+  padding-bottom: 12px;
+}
+
+
+.table_content td {
+  padding: 10px;
+  padding-bottom: 12px;
+  font-size: 14px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #828282;
+}
+
+td, th {
+  border: 1px solid #828282;
+}
+
+.cardholder_cell {
+  text-align: left;
+}
+
+.cardholder_cell ~ td {
+  text-align: center;
+}
+
+.del_field {
+  cursor: pointer;
+}
+
+

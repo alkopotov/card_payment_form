@@ -1,0 +1,154 @@
+.form_wrapper {
+  margin-top: 80px;
+}
+
+.card_system_logo {
+  display: flex;
+  align-items: center;
+  gap: 35px
+}
+
+.card {
+  width: 500px;
+  height: 274px;
+  position: relative;
+}
+
+input:hover {
+  border: 2px solid #176FC1;
+}
+.card_front_side, .card_back_side {
+  width: 388px;
+  height: 239px;
+  border-radius: 10px;
+}
+
+.card_back_side {
+  position: absolute;
+  background-color: #C7C7C7;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.card_front_side {
+  z-index: 100;
+  background-color: #ECECEC;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.card_front_side p {
+  position: absolute;
+  top: 147px;
+  left: 28px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.card_front_side img {
+  position: absolute;
+  left: 240px;
+  bottom: 24px;
+}
+.magnetic_stripe {
+  width: 100%;
+  height: 50px;
+  margin-top: 31px;
+  background-color: #979797;
+}
+
+.cardholder_input, .card_number_input, .month_input, .year_input, .cvc_input {
+  height: 42px;
+  border: 2px solid #ADADAD;
+  background: #FFF;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.cardholder_input, .card_number_input {
+  width: 324px
+}
+
+.month_input, .year_input, .cvc_input {
+  width: 73px;
+}
+
+*::placeholder {
+  color: #A0A0A0;
+}
+
+.card_number_field {
+  position: absolute;
+  top: 94px;
+  left: 28px;
+}
+
+.cardholder_field {
+  position: absolute;
+  top: 24px;
+  left: 28px;
+}
+
+.cardholder_field p, .card_number_field p {
+  position: absolute;
+  top: 42px;
+  right: 1px;
+  text-align: right;
+  color: #E85D5D;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.valid_thru_field {
+  position: absolute;
+  bottom: 24px;
+  left: 28px;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  height: auto;
+}
+
+
+.month_error, .year_error {
+  position: absolute;
+  text-align: right;
+  color: #E85D5D;
+  font-size: 14px;
+  font-weight: 700;
+  right: 0;
+  width: max-content;
+}
+
+.valid_thru_wrapper {
+  position: relative;
+}
+
+.send_button {
+  margin-top: 60px;
+  font-size: 25px;
+  font-weight: 400;
+  width: 187px;
+  height: 48px;
+  cursor: pointer;
+  background-color: #95B0D8;
+  border-radius: 11px;
+  color: white;
+  border: none;
+}
+
+.cvc_field {
+  position: absolute;
+  right: 22px;
+  bottom: 35px;
+}
+
+.cvc_field p {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  color: #E85D5D;
+  font-size: 14px;
+  font-weight: 700;
+}
