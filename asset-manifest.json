@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/card_payment_form/static/css/main.02b148b8.css",
-    "main.js": "/card_payment_form/static/js/main.344618b0.js",
+    "main.js": "/card_payment_form/static/js/main.06059b91.js",
     "static/media/service_logo.svg": "/card_payment_form/static/media/service_logo.3147bb69781b8fc8829c1b93977aaadc.svg",
     "index.html": "/card_payment_form/index.html",
     "static/media/slash.svg": "/card_payment_form/static/media/slash.d1eb292076d7beace8c8c0f4edc3f0aa.svg",
     "main.02b148b8.css.map": "/card_payment_form/static/css/main.02b148b8.css.map",
-    "main.344618b0.js.map": "/card_payment_form/static/js/main.344618b0.js.map"
+    "main.06059b91.js.map": "/card_payment_form/static/js/main.06059b91.js.map"
   },
   "entrypoints": [
     "static/css/main.02b148b8.css",
-    "static/js/main.344618b0.js"
+    "static/js/main.06059b91.js"
   ]
 }
