@@ -152,3 +152,98 @@ input:hover {
   font-size: 14px;
   font-weight: 700;
 }
+
+@media (max-width: 760px) {
+  .card_system_logo {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 500px) {
+  .form_wrapper {
+    margin-top: 40px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 360px;
+    height: 285px;
+  }
+  
+  .card_front_side, .card_back_side {
+    width: 330px;
+    height: 203px;
+    border-radius: 10px;
+  }
+
+  .card_front_side p {
+    top: 124px;
+    left: 26px;
+    font-size: 14px;
+  }
+  .cardholder_input, .card_number_input {
+    width: 275px;
+  }
+
+  .cardholder_input, .card_number_input, .month_input, .year_input, .cvc_input {
+    height: 35px;
+    border: 2px solid #ADADAD;
+    background: #FFF;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .card_number_field {
+    position: absolute;
+    top: 81px;
+    left: 26px;
+  }
+  
+  .cardholder_field {
+    position: absolute;
+    top: 23px;
+    left: 26px;
+  }
+
+  .cardholder_field p, .card_number_field p {
+    top: 34px;
+    right: 1px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .month_error, .year_error, .cvc_field p {
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .month_input, .year_input, .cvc_input {
+    width: 62px;
+  }
+  .valid_thru_field {
+    bottom: 23px;
+    left: 26px;
+    gap: 10px;
+  }
+  .card_front_side img {
+    left: 205px;
+    bottom: 20px;
+    max-height: 45px;
+  }
+  .send_button {
+    margin-top: 20px;
+    font-size: 24px;
+    width: 180px;
+    height: 44px;
+  }
+  .magnetic_stripe {
+    height: 43px;
+    margin-top: 30px;
+    background-color: #979797;
+  }
+}

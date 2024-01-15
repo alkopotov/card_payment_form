@@ -52,4 +52,33 @@ td, th {
   cursor: pointer;
 }
 
+@media (max-width: 800px) {
+
+  .table_wrapper {
+    padding: 16px;
+    border-radius: 22px;
+  }
+  
+  .table_content thead {
+    background-color:  #E5E5E5;
+    font-size: 12px;
+  }
+
+  .table_content td {
+    padding: 5px;
+    padding-bottom: 12px;
+    font-size: 12px;
+  }
+
+  .delete_field {
+    min-width: 25px;
+  }
+  
+  .table_header {
+    text-align: center;
+    min-width: fit-content;
+    padding: 8px;
+    padding-bottom: 10px;
+  }
+}
 
